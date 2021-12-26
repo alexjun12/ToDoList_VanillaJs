@@ -1,6 +1,8 @@
-const num = 5;
-const divi = 10;
+const player = {
+    name : 'jun',
+    sayHello : function(a){
+        console.log(a + "hello");
+    } ,
+};
 
-const myName = "Jun"
-
-console.log(divi / num);
+player.sayHello("hello!! ")
