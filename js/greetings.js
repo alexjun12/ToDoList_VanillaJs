@@ -14,7 +14,7 @@ function onLoginSubmit(event){ //로그인 했을 때의 기능(event매개변�
 }
 
 function paintGreetings(userName){ //로그인 후 처리함수
-    greeting.innerText = `Hello ${userName}`; 
+    greeting.innerText = `Hello ${userName}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
