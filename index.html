@@ -6,9 +6,16 @@
     <title>Title</title>
 </head>
 <body>
-    <div class = 'hello'>
-        <h1>grab me</h1>
-    </div>
+    <form class = "hidden" id = "login_form">
+        <input
+                required
+                maxlength="15"
+                type = "text"
+                placeholder="What is your name?"
+        />
+        <input type = "submit" value = "Log In" />
+    </form>
+    <h1 class = "hidden" id = "greeting"></h1>
     <script src = 'app.js'></script>
 </body>
 </html>
