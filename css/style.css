@@ -1,3 +1,48 @@
 .hidden{
     display: none;
 }
+
+.backFull{
+    height: 100vh;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.textFontAColor{
+    color : lawngreen;
+    font-family: 'Ubuntu Mono', serif;
+    background-color: black;
+}
+
+.namePosition{
+    position : relative;
+    top: 50px;
+    left: 650px;
+}
+
+.quotePosition{
+    position: absolute;
+    left: 550px;
+    top: 880px;
+}
+
+.clockPosition{
+    position: relative;
+    top: 50px;
+}
+
+.todoListPosition{
+    position: relative;
+    top: 100px;
+    left: 700px;
+}
+.todosPosition{
+    position: relative;
+    top: 130px;
+    left: 700px;
+}
+.loginBoxPosition{
+    position: relative;
+    top: 550px;
+    left: 700px;
+}

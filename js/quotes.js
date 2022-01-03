@@ -1,42 +1,42 @@
 const quotes = [
     {
-        quote: "I never dreamed about success, I worked for it",
+        quote: "I never dreamed about success, I worked for it. ",
         author: "Estee Lauder",
     },
     {
-        quote: "Do not try to be original, Just try to be good",
+        quote: "Do not try to be original, Just try to be good. ",
         author: "Paul Rand",
     },
     {
-        quote: "Do not be afraid to give up the good to go for the great",
+        quote: "Do not be afraid to give up the good to go for the great. ",
         author: "John D.Rockefeller",
     },
     {
-        quote: "Hold on with your teeth, if you don't have teeth, bite your gums and hold on",
+        quote: "Hold on with your teeth, if you don't have teeth, bite your gums and hold on. ",
         author: "Republc Of Korea Marine Corps",
     },
     {
-        quote: "Go alone like a rhinoceros horn",
+        quote: "Go alone like a rhinoceros horn. ",
         author: "Buda",
     },
     {
-        quote: "Be proud like a mountain, and humble yourself like the lying grass",
+        quote: "Be proud like a mountain, and humble yourself like the lying grass. ",
         author: "Buda",
     },
     {
-        quote: "Don't be too stingy, don't be angry or hateful",
+        quote: "Don't be too stingy, don't be angry or hateful. ",
         author: "Buda",
     },
     {
-        quote: "Do not turn your back on justice to satisfy your selfishness, and do not repay your resentment with resentment",
+        quote: "Do not turn your back on justice to satisfy your selfishness, and do not repay your resentment with resentment. ",
         author: "Buda",
     },
     {
-        quote: "Don't be afraid to face danger, don't frame others for profit",
+        quote: "Don't be afraid to face danger, don't frame others for profit. ",
         author: "Buda",
     },
     {
-        quote: "Know how to look at wealth like filth, and manage your anger well",
+        quote: "Know how to look at wealth like filth, and manage your anger well. ",
         author: "Buda",
     },
 ]; //명언 배열
