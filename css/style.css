@@ -9,9 +9,16 @@
 }
 
 .textFontAColor{
-    color : lawngreen;
+    color : gold;
     font-family: 'Ubuntu Mono', serif;
-    background-color: black;
+}
+.textFontAColor2{
+    color : deeppink;
+    font-family: 'Ubuntu Mono', serif;
+}
+.textFontAColor3{
+    color : cyan;
+    font-family: 'Ubuntu Mono', serif;
 }
 
 .namePosition{

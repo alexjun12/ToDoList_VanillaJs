@@ -5,24 +5,25 @@
     <link rel = 'stylesheet' href = 'css/style.css'>
     <title>Momentum App</title>
 </head>
-<body bgcolor="black" class = "backFull" id = "backGround">
+<body background="img/giphy.gif" class = "backFull" id = "backGround">
     <form class = "hidden loginBoxPosition" id = "login_form">
         <input
-                class = "textFontAColor"
+                class = "textFontAColor3"
                 required
                 maxlength="15"
                 type = "text"
                 placeholder="What is your name?"
+                style="background-color : black"
         />
-        <input class = "textFontAColor" type = "submit" value = "Log In" />
+        <input class = "textFontAColor3" type = "submit" value = "Log In" style="background-color : black" />
     </form>
-    <h2 class ="textFontAColor clockPosition" id = "clock">00:00:00</h2>
-    <h1 class = "hidden textFontAColor namePosition" id = "greeting"></h1>
+    <h2 class ="textFontAColor2 clockPosition" id = "clock">00:00:00</h2>
+    <h3 class = "hidden textFontAColor3 namePosition" id = "greeting"></h3>
     <form class = "todoListPosition hidden" id = "todo_form">
         <input class = "textFontAColor" type = "text" placeholder = "Write a To Do and Press Enter" required/>
     </form>
-    <ul id = "todo_list"></ul>
-    <div class = "textFontAColor quotePosition" id = "quote">
+    <ol id = "todo_list"></ol>
+    <div class = "textFontAColor2 quotePosition" id = "quote">
         <span></span>
         <span></span>
     </div>

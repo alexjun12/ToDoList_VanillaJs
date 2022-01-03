@@ -28,6 +28,7 @@ function paintTodo(newTodo){ //화면상에 할일 그려주는 함수
     const button = document.createElement("button"); //HTML에 button 추가
     button.classList.add(fontDesign);
     button.innerText = "X"; //버튼 모양
+    button.style.backgroundColor = "black";
 
 
     button.addEventListener("click", deleteTodo); //버튼에 클릭이벤트 추가(누르면 deleteTodo 함수 실행)
@@ -50,6 +51,7 @@ function handleTodoSubmit(event){ //input에서 submit이벤트 다루는 함수
     saveToDos(); //로컬 저장소에 저장
 }
 
+todoInput.style.backgroundColor = "black";
 todoForm.addEventListener("submit",handleTodoSubmit); //할일 작성 후 엔터키 누를 때 이벤트 리스너
 
 const savedToDos = localStorage.getItem(TODOS_KEY); //저장소에서 todos 라는 키값을 가진 value 받아오기
