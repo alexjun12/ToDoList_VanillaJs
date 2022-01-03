@@ -20,8 +20,8 @@ function deleteTodo(event){ //할일 삭제 함수
 
 function paintTodo(newTodo){ //화면상에 할일 그려주는 함수
     const li = document.createElement("li"); //HTML에 li추가
-    li.classList.add(fontDesign);
-    li.classList.add("todosPosition");
+    li.classList.add(fontDesign); //li 디자인 설정
+    li.classList.add("todosPosition"); //li 위치 지정
     li.id = newTodo.id; //리스트의 각 아이템의 id를 li의 id에 저장
     const span = document.createElement("span"); //HTML에 span 추가
     span.innerText = newTodo.text; //span의 텍스트를 리스트 내 각 아이템의 text 값으로 저장
