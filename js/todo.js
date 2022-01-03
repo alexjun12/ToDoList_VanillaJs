@@ -28,7 +28,7 @@ function paintTodo(newTodo){ //화면상에 할일 그려주는 함수
     const button = document.createElement("button"); //HTML에 button 추가
     button.classList.add(fontDesign);
     button.innerText = "X"; //버튼 모양
-    button.style.backgroundColor = "black";
+    button.style.backgroundColor = "black"; //버튼 배경 설정
 
 
     button.addEventListener("click", deleteTodo); //버튼에 클릭이벤트 추가(누르면 deleteTodo 함수 실행)
